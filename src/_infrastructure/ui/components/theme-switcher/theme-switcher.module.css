@@ -1,0 +1,15 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.container img {
+    cursor: pointer;
+    animation: beat 1s infinite alternate;
+}
+
+@keyframes beat{
+	to { transform: scale(1.2); }
+}

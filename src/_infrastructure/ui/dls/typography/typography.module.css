@@ -1,0 +1,24 @@
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.paragraph {
+  font-size: 1rem;
+}
+
+.text {
+  font-size: 0.8rem;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.base {
+  color: var(--text);
+}

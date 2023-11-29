@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "eslint.validate": ["javascript", "typescript", "scss", "jsx", "tsx"],
+    "redhat.telemetry.enabled": true,
+    "svelte.enable-ts-plugin": true,
+    "terminal.integrated.env.osx": {},
+    "javascript.updateImportsOnFileMove.enabled": "never"
+  }
+  

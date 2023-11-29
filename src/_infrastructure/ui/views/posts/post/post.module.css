@@ -1,0 +1,24 @@
+.article {
+  transition: transform 0.2s ease-in-out 0s;
+}
+.article:hover {
+  transform: scaleX(1.005) scaleY(1.005);
+}
+
+.title {
+  margin-bottom: 0.8rem;
+}
+
+.date {
+  color: var(--secondary);
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: var(--secondary);
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
